@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth antialised tracking-wide" id="inicio">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estatium | Tech Master</title>
+    <meta name="author" content="Enzo dos Santos Scholl" />
+    <meta
+      name="description"
+      content="Projeto oficial da empresa fictícia Estatium"
+    />
+    <meta
+      name="keywords"
+      content="css, estatium, html, java, javascript, mysql, techmaster"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="flex min-h-screen flex-col bg-stone-950"
+    style="background-image: url(img/fundo.webp); background-size: cover"
+  >
+    <!-- Abrir menu -->
+    <button
+      type="button"
+      class="fixed z-20 mt-4 ml-4 block size-fit rounded-lg border-2 border-stone-950 bg-orange-400 p-2 text-sm text-slate-100 duration-200 hover:scale-90 active:scale-75 sm:hidden"
+      id="abrir-menu"
+      aria-label="Abrir menu"
+    >
+      <img src="img/icones/barras.svg" alt="Menu" class="size-6" />
+    </button>
+    <!-- Menu -->
+    <header class="sm:px-2 sm:py-4">
+      <div class="px-10" id="menu-desktop">
+        <nav class="flex items-center justify-end space-x-5">
+          <h1
+            class="mr-auto flex items-center text-3xl font-extrabold text-orange-400"
+            aria-label="Estatium"
+          >
+            <img src="img/logo/logo.svg" alt="Logo" class="size-10" />ESTATIUM
+          </h1>
+          <a
+            href="#"
+            class="font-extrabold text-orange-400 hover:text-orange-300"
+            aria-label="Início"
+            >INÍCIO</a
+          >
+          <a
+            href="gestao.jsp"
+            class="font-extrabold text-orange-400 hover:text-orange-300"
+            aria-label="Gestão"
+            >GESTÃO</a
+          >
+          <a
+            href="desempenho.jsp"
+            class="font-extrabold text-orange-400 hover:text-orange-300"
+            aria-label="Desempenho"
+            >DESEMPENHO</a
+          >
+          <a
+            href=".html"
+            class="font-extrabold text-orange-400 hover:text-orange-300"
+            aria-label="Sair"
+            >SAIR</a
+          >
+        </nav>
+      </div>
+    </header>
+    <!-- Conteúdo -->
+    <main class="flex-1" data-brightness>
+      <!-- Slogan -->
+      <section
+        class="bg-orange-400"
+        style="
+          background-image: url(img/fundo-alt.webp);
+          background-size: cover;
+          background-position-x: right;
+        "
+      >
+        <div
+          class="mx-auto grid max-w-screen-xl items-center gap-16 px-4 py-8 text-center sm:grid-cols-2 sm:px-6 sm:py-16 sm:text-left"
+        >
+          <div class="mb-4 space-y-10">
+            <h1
+              class="flex items-center justify-center text-4xl font-extrabold text-stone-950 sm:justify-start"
+              aria-label="Estatium"
+            >
+              <img src="img/logo/logo.svg" alt="Logo" class="size-20" />ESTATIUM
+            </h1>
+            <h2
+              class="text-4xl font-extrabold"
+              aria-label="Controle e melhore, qualidade em seus produtos"
+            >
+              <span class="text-stone-950">CONTROLE E MELHORE,</span>
+              <span class="text-stone-800">qualidade em seus produtos</span>
+            </h2>
+            <p
+              class="pb-10 font-semibold"
+              aria-label="Com a Estatium, você tem o poder de gerenciar a qualidade de seus
+              produtos de maneira fácil e eficiente. Adicione, atualize, exclua
+              produtos e monitore o desempenho geral, além de cada produto
+              individualmente"
+            >
+              Com a Estatium, você tem o poder de gerenciar a qualidade de seus
+              produtos de maneira fácil e eficiente. Adicione, atualize, exclua
+              produtos e monitore o desempenho geral, além de cada produto
+              individualmente.
+            </p>
+            <a
+              href="#sobre-nos"
+              class="rounded-full border-2 border-stone-950 bg-stone-950 p-2 font-extrabold text-orange-400 hover:bg-transparent hover:text-stone-950"
+              >CONHEÇA MAIS</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Linguagens de programação -->
+      <section>
+        <div
+          class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:py-16 sm:text-right lg:px-6"
+        >
+          <div class="mb-8 lg:mb-16">
+            <h1
+              class="mb-4 text-4xl font-extrabold text-orange-400"
+              aria-label="Linguagens de programação"
+            >
+              LINGUAGENS DE PROGRAMAÇÃO
+            </h1>
+            <p
+              class="mb-6 text-slate-100 sm:text-xl"
+              aria-label="Na Estatium, exploramos as linguagens de programação essenciais
+            que impulsionam a criação de soluções digitais inovadoras"
+            >
+              Na Estatium, exploramos as linguagens de programação essenciais
+              que impulsionam a criação de soluções digitais inovadoras.
+            </p>
+            <p
+              class="text-slate-100 sm:text-xl"
+              aria-label="Desde
+            a estruturação básica com HTML até a interatividade dinâmica com
+            JavaScript, cada linguagem desempenha um papel crucial na
+            construção de experiências web robustas e funcionais"
+            >
+              Desde a estruturação básica com HTML até a interatividade dinâmica
+              com JavaScript, cada linguagem desempenha um papel crucial na
+              construção de experiências web robustas e funcionais.
+            </p>
+          </div>
+          <div
+            class="space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3"
+          >
+            <div>
+              <div
+                class="mx-auto mb-4 flex size-10 items-center justify-center rounded-full bg-orange-400 sm:ml-auto sm:mr-0 lg:size-12"
+              >
+                <img
+                  class="size-6 lg:size-8"
+                  src="img/icones/html5.svg"
+                  alt="HTML"
+                />
+              </div>
+              <h2
+                class="mb-2 text-xl font-bold text-orange-400"
+                aria-label="HTML"
+              >
+                HTML
+              </h2>
+              <p
+                class="text-slate-100"
+                aria-label="HTML permite definir a estrutura básica de uma página, incluindo
+              elementos como texto, imagens e links"
+              >
+                HTML permite definir a estrutura básica de uma página, incluindo
+                elementos como texto, imagens e links.
+              </p>
+            </div>
+            <div>
+              <div
+                class="mx-auto mb-4 flex size-10 items-center justify-center rounded-full bg-orange-400 sm:ml-auto sm:mr-0 lg:size-12"
+              >
+                <img
+                  class="size-6 lg:size-8"
+                  src="img/icones/css3.svg"
+                  alt="CSS"
+                />
+              </div>
+              <h2
+                class="mb-2 text-xl font-bold text-orange-400"
+                aria-label="CSS"
+              >
+                CSS
+              </h2>
+              <p
+                class="text-slate-100"
+                aria-label="CSS é usado para controlar o layout, as cores e os estilos de
+              todos os elementos HTML em um site"
+              >
+                CSS é usado para controlar o layout, as cores e os estilos de
+                todos os elementos HTML em um site.
+              </p>
+            </div>
+            <div>
+              <div
+                class="mx-auto mb-4 flex size-10 items-center justify-center rounded-full bg-orange-400 sm:ml-auto sm:mr-0 lg:size-12"
+              >
+                <img
+                  class="size-6 lg:size-8"
+                  src="img/icones/js.svg"
+                  alt="JavaScript"
+                />
+              </div>
+              <h2
+                class="mb-2 text-xl font-bold text-orange-400"
+                aria-label="JavaScript"
+              >
+                JavaScript
+              </h2>
+              <p
+                class="text-slate-100"
+                aria-label="JavaScript permite criar funcionalidades avançadas, como
+              animações, validações de formulários e atualizações de conteúdo
+              em tempo real"
+              >
+                JavaScript permite criar funcionalidades avançadas, como
+                animações, validações de formulários e atualizações de conteúdo
+                em tempo real.
+              </p>
+            </div>
+            <div class="col-start-2">
+              <div
+                class="mx-auto mb-4 flex size-10 items-center justify-center rounded-full bg-orange-400 sm:ml-auto sm:mr-0 lg:size-12"
+              >
+                <img
+                  class="size-6 lg:size-8"
+                  src="img/icones/java.svg"
+                  alt="Java"
+                />
+              </div>
+              <h2
+                class="mb-2 text-xl font-bold text-orange-400"
+                aria-label="Java"
+              >
+                Java
+              </h2>
+              <p
+                class="text-slate-100"
+                aria-label="Java é amplamente utilizado em aplicativos corporativos, desde
+              sistemas financeiros até aplicativos móveis"
+              >
+                Java é amplamente utilizado em aplicativos corporativos, desde
+                sistemas financeiros até aplicativos móveis.
+              </p>
+            </div>
+            <div>
+              <div
+                class="mx-auto mb-4 flex size-10 items-center justify-center rounded-full bg-orange-400 sm:ml-auto sm:mr-0 lg:size-12"
+              >
+                <img
+                  class="size-6 lg:size-8"
+                  src="img/icones/sql.svg"
+                  alt="SQL"
+                />
+              </div>
+              <h2
+                class="mb-2 text-xl font-bold text-orange-400"
+                aria-label="SQL"
+              >
+                SQL
+              </h2>
+              <p
+                class="text-slate-100"
+                aria-label="SQL é essencial para consultas complexas, inserções de dados e
+              operações de atualização em bancos de dados"
+              >
+                SQL é essencial para consultas complexas, inserções de dados e
+                operações de atualização em bancos de dados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sobre nós -->
+      <section
+        class="bg-orange-400"
+        id="sobre-nos"
+        style="
+          background-image: url(img/fundo-alt.webp);
+          background-size: cover;
+          background-position-x: right;
+        "
+      >
+        <div
+          class="mx-auto grid max-w-screen-xl items-center gap-16 px-4 py-8 sm:grid-cols-2 sm:px-6 sm:py-16"
+        >
+          <div class="text-stone-950">
+            <h1 class="mb-4 text-4xl font-extrabold" aria-label="Sobre nós">
+              SOBRE NÓS
+            </h1>
+            <p
+              class="mb-4 font-semibold"
+              aria-label="Na Estatium, ajudamos empresas a manter um alto padrão de
+              qualidade de produtos, oferecendo uma plataforma eficiente para
+              adicionar, atualizar, excluir e monitorar desempenho. Nosso
+              sistema também controla a última data de inspeção, garantindo que
+              sua empresa se antecipe a problemas e mantenha a excelência. Somos
+              parceiros na busca por qualidade e crescimento sustentável"
+            >
+              Na Estatium, ajudamos empresas a manter um alto padrão de
+              qualidade de produtos, oferecendo uma plataforma eficiente para
+              adicionar, atualizar, excluir e monitorar desempenho. Nosso
+              sistema também controla a última data de inspeção, garantindo que
+              sua empresa se antecipe a problemas e mantenha a excelência. Somos
+              parceiros na busca por qualidade e crescimento sustentável.
+            </p>
+          </div>
+          <div class="mt-8 grid grid-cols-2 gap-4">
+            <img
+              class="w-full rounded-lg"
+              src="img/sobre-nos-1.webp"
+              alt="Negócios"
+            />
+            <img
+              class="mt-4 w-full rounded-lg lg:mt-10"
+              src="img/sobre-nos-2.webp"
+              alt="Estatísticas"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Nosso time -->
+      <section>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
+          <div class="mx-auto mb-8 max-w-screen-sm text-center lg:mb-16">
+            <h1
+              class="mb-4 rounded-lg bg-orange-400 p-4 text-4xl font-extrabold text-stone-950"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+              aria-label="Nosso time"
+            >
+              NOSSO TIME
+            </h1>
+          </div>
+          <div class="mb-6 grid gap-8 md:grid-cols-2 lg:mb-16">
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/henrique.webp"
+                alt="Líder"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="Henrique Eberhardt"
+                >
+                  HENRIQUE EBERHARDT
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Líder">
+                  LÍDER
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="Henrique conduz a estratégia técnica e as iniciativas de
+                  liderança para a marca Estatium"
+                >
+                  Henrique conduz a estratégia técnica e as iniciativas de
+                  liderança para a marca Estatium.
+                </p>
+              </div>
+            </div>
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/matheus.webp"
+                alt="Marketing"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="Matheus Kuppers Stropolli"
+                >
+                  MATHEUS KUPPERS STROPOLLI
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Marketing">
+                  MARKETING
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="Matheus molda a estratégia de marketing e as iniciativas para
+                  a marca Estatium"
+                >
+                  Matheus molda a estratégia de marketing e as iniciativas para
+                  a marca Estatium.
+                </p>
+              </div>
+            </div>
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/enzo.webp"
+                alt="Front-end"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="Enzo dos Santos Scholl"
+                >
+                  ENZO DOS SANTOS SCHOLL
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Front-end">
+                  FRONT-END
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="Enzo arquiteta o desenvolvimento front-end e a experiência do
+                  usuário para a marca Estatium"
+                >
+                  Enzo arquiteta o desenvolvimento front-end e a experiência do
+                  usuário para a marca Estatium.
+                </p>
+              </div>
+            </div>
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/joao-vitor.webp"
+                alt="Back-end"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="João Vitor Mick Schmitt"
+                >
+                  JOÃO VITOR MICK SCHMITT
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Back-end">
+                  BACK-END
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="João Vitor lidera o desenvolvimento back-end e a
+                  infraestrutura técnica para a marca Estatium"
+                >
+                  João Vitor lidera o desenvolvimento back-end e a
+                  infraestrutura técnica para a marca Estatium.
+                </p>
+              </div>
+            </div>
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/guilherme-henrique.webp"
+                alt="Database"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="Guilherme Henrique Kaht"
+                >
+                  GUILHERME HENRIQUE KAHT
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Database">
+                  DATABASE
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="Guilherme Henrique gerencia a arquitetura de banco de dados e
+                  as estratégias de gerenciamento de dados para a marca
+                  Estatium"
+                >
+                  Guilherme Henrique gerencia a arquitetura de banco de dados e
+                  as estratégias de gerenciamento de dados para a marca
+                  Estatium.
+                </p>
+              </div>
+            </div>
+            <div
+              class="items-center rounded-lg bg-orange-400 sm:flex"
+              style="
+                background-image: url(img/fundo-alt.webp);
+                background-size: cover;
+                background-position-x: right;
+              "
+            >
+              <img
+                class="w-64 rounded-lg sm:rounded-none sm:rounded-l-lg"
+                src="img/membros/lucas.webp"
+                alt="Agregado"
+              />
+              <div class="p-5">
+                <h2
+                  class="text-xl font-extrabold text-stone-950"
+                  aria-label="Lucas Maurício Pitz"
+                >
+                  LUCAS MAURÍCIO PITZ
+                </h2>
+                <h3 class="font-bold text-stone-800" aria-label="Agregado">
+                  AGREGADO
+                </h3>
+                <p
+                  class="mt-3 mb-4 font-semibold"
+                  aria-label="Lucas contribui ativamente como agregado na equipe da
+                  Estatium, apoiando as operações diárias e impulsionando o
+                  desenvolvimento contínuo da empresa"
+                >
+                  Lucas contribui ativamente como agregado na equipe da
+                  Estatium, apoiando as operações diárias e impulsionando o
+                  desenvolvimento contínuo da empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Nossos objetivos -->
+      <section
+        class="bg-orange-400"
+        style="
+          background-image: url(img/fundo-alt.webp);
+          background-size: cover;
+          background-position-x: right;
+        "
+      >
+        <div
+          class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:text-right lg:px-6 lg:py-16"
+        >
+          <div>
+            <h1
+              class="mb-4 text-4xl font-extrabold text-stone-950"
+              aria-label="Nossos objetivos"
+            >
+              NOSSOS OBJETIVOS
+            </h1>
+            <p
+              class="mb-4 font-semibold"
+              aria-label="Nossos objetivo é oferecer uma plataforma prática e eficiente que
+              permita às empresas de todos os setores monitorar e gerenciar a
+              qualidade de seus produtos, antecipar problemas e otimizar
+              processos, promovendo assim um ambiente de excelência e aumentando
+              a satisfação e confiança dos clientes"
+            >
+              Nossos objetivo é oferecer uma plataforma prática e eficiente que
+              permita às empresas de todos os setores monitorar e gerenciar a
+              qualidade de seus produtos, antecipar problemas e otimizar
+              processos, promovendo assim um ambiente de excelência e aumentando
+              a satisfação e confiança dos clientes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Nossos valores -->
+      <section>
+        <div
+          class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:text-left lg:px-6 lg:py-16"
+        >
+          <div>
+            <h1
+              class="mb-4 text-4xl font-extrabold text-orange-400"
+              aria-label="Nossos valores"
+            >
+              NOSSOS VALORES
+            </h1>
+            <ol class="list-none text-slate-100 sm:list-decimal">
+              <li
+                class="mb-5"
+                aria-label="Excelência: Comprometemo-nos a oferecer sempre o melhor, ajudando as
+                empresas a atingir altos padrões de qualidade em seus produtos e
+                serviços
+              "
+              >
+                <span class="font-bold text-orange-400">Excelência</span>:
+                Comprometemo-nos a oferecer sempre o melhor, ajudando as
+                empresas a atingir altos padrões de qualidade em seus produtos e
+                serviços.
+              </li>
+              <li
+                class="mb-5"
+                aria-label="Inovação: Valorizamos a busca constante por soluções criativas e
+                tecnologias avançadas para otimizar o controle e a gestão da
+                qualidade"
+              >
+                <span class="font-bold text-orange-400">Inovação</span>:
+                Valorizamos a busca constante por soluções criativas e
+                tecnologias avançadas para otimizar o controle e a gestão da
+                qualidade.
+              </li>
+              <li
+                class="mb-5"
+                aria-label="Transparência: Acreditamos na importância de processos claros e honestos, tanto
+                internamente quanto no relacionamento com nossos clientes"
+              >
+                <span class="font-bold text-orange-400">Transparência</span>:
+                Acreditamos na importância de processos claros e honestos, tanto
+                internamente quanto no relacionamento com nossos clientes.
+              </li>
+              <li
+                class="mb-5"
+                aria-label="Compromisso com o Cliente: Estamos dedicados a entender as necessidades de nossos
+                clientes e a fornecer ferramentas que realmente façam a
+                diferença em seu dia a dia"
+              >
+                <span class="font-bold text-orange-400"
+                  >Compromisso com o Cliente</span
+                >: Estamos dedicados a entender as necessidades de nossos
+                clientes e a fornecer ferramentas que realmente façam a
+                diferença em seu dia a dia.
+              </li>
+              <li
+                class="mb-5"
+                aria-label="Sustentabilidade: Promovemos práticas que contribuam para um crescimento
+                responsável, considerando o impacto ambiental e social das
+                nossas ações e soluções"
+              >
+                <span class="font-bold text-orange-400">Sustentabilidade</span>:
+                Promovemos práticas que contribuam para um crescimento
+                responsável, considerando o impacto ambiental e social das
+                nossas ações e soluções.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Voltar ao topo -->
+    <button
+      type="button"
+      class="fixed right-0 bottom-0 z-20 mb-4 mr-4 hidden size-fit rounded-lg border-2 border-stone-950 bg-orange-400 p-2 text-sm text-slate-100 duration-200 hover:scale-90 active:scale-75"
+      id="voltar-topo"
+      aria-label="Voltar ao topo"
+      data-brightness
+    >
+      <img src="img/icones/seta-cima.svg" alt="Voltar ao topo" class="size-6" />
+    </button>
+    <!-- Rodapé -->
+    <footer
+      class="relative flex w-full flex-col items-center space-y-10 bg-orange-400 p-10"
+      style="
+        background-image: url(img/fundo-alt.webp);
+        background-size: cover;
+        background-position-x: right;
+      "
+      data-brightness
+    >
+      <div class="flex items-center space-x-10">
+        <a
+          href="#"
+          class="font-extrabold text-stone-950 hover:text-stone-800"
+          aria-label="Início"
+          >INÍCIO</a
+        >
+        <a
+          href="gestao.jsp"
+          class="font-extrabold text-stone-950 hover:text-stone-800"
+          aria-label="Gestão"
+          >GESTÃO</a
+        >
+        <a
+          href="desempenho.jsp"
+          class="font-extrabold text-stone-950 hover:text-stone-800"
+          aria-label="Desempenho"
+          >DESEMPENHO</a
+        >
+      </div>
+      <div class="flex flex-row items-center space-x-5">
+        <a
+          href="https://www.instagram.com/estatium_?igsh=MWFiejg1YTBpNDlmcw=="
+          class="rounded-full text-lg font-semibold duration-75"
+          ><img src="img/icones/instagram.svg" class="size-10" alt="Instagram"
+        /></a>
+        <h1
+          class="flex items-center border-l-2 border-stone-950 pl-4 text-2xl font-extrabold text-stone-950"
+          aria-label="Estatium"
+        >
+          <img src="img/logo/logo.svg" alt="Logo" class="size-10" />ESTATIUM
+        </h1>
+      </div>
+      <p
+        class="w-full border-t-2 border-stone-950 p-4 text-center font-semibold text-stone-950"
+        aria-label="Copyright &copy;2024 | Tech Master"
+      >
+        Copyright &copy;2024 | Tech Master
+      </p>
+    </footer>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
